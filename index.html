@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Exam Success | Certified Exam Vouchers</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announce-bar" id="announceBar">
+    <span>Limited Time: Extra 5% OFF on all vouchers this week! Use code <strong>EXAM5</strong></span>
+    <button class="announce-close" onclick="document.getElementById('announceBar').style.display='none'">✕</button>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon"></span>
+        <span class="logo-text">GlobalExamSuccess</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#vouchers">Vouchers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact" class="btn-nav">Get a Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#vouchers">Vouchers</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#contact">Get a Quote</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-particles">
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
+    <div class="container hero-inner">
+      <!-- LEFT CONTENT -->
+       <div class="hero-left">
+      <div class="hero-badge">Authorized Reseller · Trusted Since Day 1</div>
+      <h1 class="hero-title">
+        Certification Exams<br/>
+        <span class="accent">at Unbeatable Prices</span>
+      </h1>
+      <p class="hero-sub">
+        We are an authorized reseller of discounted exam vouchers for top IT certifications.
+        Save up to 40% on Microsoft, CompTIA, Cisco, AWS & more — with industry-led trainers
+        ready to help you succeed.
+      </p>
+      <div class="hero-cta">
+        <a href="#vouchers" class="btn-primary">
+          <span>Browse Vouchers</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn-outline">Talk to an Expert</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="2000">0</span><span class="stat-num">+</span>
+          <span class="stat-label">Vouchers Sold</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="40">0</span><span class="stat-num">%</span>
+          <span class="stat-label">Avg. Savings</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="50">0</span><span class="stat-num">+</span>
+          <span class="stat-label">Certification Vendors</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="98">0</span><span class="stat-num">%</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        </div>
+        </div>
+        <!-- RIGHT IMAGE -->
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <img src="image/student.jpg" alt="Student preparing for certification exam" class="student-img" />
+          <!-- <div class="hero-float-badge badge-top">
+            <span class="badge-icon">🏆</span>
+            <div><strong>Authorized</strong><span>Reseller</span></div>
+          </div> -->
+          <!-- <div class="hero-float-badge badge-bottom">
+            <span class="badge-icon">⚡</span>
+            <div><strong>Instant</strong><span>Delivery</span></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+  </section>
+
+  <!-- ===== TRUST STRIP ===== -->
+  <div class="trust-strip">
+    <div class="trust-track">
+      <div class="trust-inner">
+        <span>100% Genuine Vouchers</span>
+        <span class="sep">•</span>
+        <span>Instant Email Delivery</span>
+        <span class="sep">•</span>
+        <span>Secure Payments</span>
+        <span class="sep">•</span>
+        <span>Global Vendor Access</span>
+        <span class="sep">•</span>
+        <span>24/7 Support</span>
+        <span class="sep">•</span>
+        <span>Authorized Reseller</span>
+        <span class="sep">•</span>
+        <span>100% Genuine Vouchers</span>
+        <span class="sep">•</span>
+        <span>Instant Email Delivery</span>
+        <span class="sep">•</span>
+        <span>Secure Payments</span>
+        <span class="sep">•</span>
+        <span>Global Vendor Access</span>
+        <span class="sep">•</span>
+        <span>24/7 Support</span>
+        <span class="sep">•</span>
+        <span>Authorized Reseller</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LOGO STRIP ===== -->
+  <section class="brand-strip">
+    <div class="container">
+      <p class="strip-label">Vouchers available for</p>
+      <div class="brand-logos">
+        <span>Microsoft</span>
+        <span>CompTIA</span>
+        <span>Cisco</span>
+        <span>AWS</span>
+        <span>PMI</span>
+        <span>Salesforce</span>
+        <span>Google Cloud</span>
+        <span>Adobe</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VOUCHER CATEGORIES ===== -->
+  <section class="vouchers" id="vouchers">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Our Products</span>
+        <h2>Exam Voucher Categories</h2>
+        <p>Choose from a wide range of certification vouchers across all major IT and business domains.</p>
+      </div>
+      <div class="card-grid">
+
+        <div class="card">
+          <!-- <div class="card-icon"></div> -->
+          <h3>Microsoft</h3>
+          <p>Azure, M365, Security, Power Platform & more. AZ-900 to AZ-305 and beyond.</p>
+          <ul>
+            <li>AZ-900 · AZ-104 · AZ-305</li>
+            <li>MS-900 · MS-700</li>
+            <li>SC-900 · SC-300</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span>→</span></a>
+        </div>
+
+        <div class="card card-featured">
+          <div class="badge-featured">Most Popular</div>
+          <!-- <div class="card-icon"></div> -->
+          <h3>CompTIA</h3>
+          <p>Entry to expert level: A+, Network+, Security+, CySA+, CASP+ and more.</p>
+          <ul>
+            <li>A+ · Network+ · Security+</li>
+            <li>CySA+ · PenTest+</li>
+            <li>CASP+ · Cloud+</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span></span></a>
+        </div>
+
+        <div class="card">
+          <!-- <div class="card-icon"></div> -->
+          <h3>AWS / Cloud</h3>
+          <p>Amazon Web Services, Google Cloud Platform & multi-cloud certifications.</p>
+          <ul>
+            <li>AWS Cloud Practitioner</li>
+            <li>AWS Solutions Architect</li>
+            <li>GCP Associate · Pro</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span></span></a>
+        </div>
+
+        <div class="card">
+          <!-- <div class="card-icon"></div> -->
+          <h3>Cisco</h3>
+          <p>CCNA, CCNP, CCIE and Cisco DevNet certifications at discounted rates.</p>
+          <ul>
+            <li>CCNA · CCNP</li>
+            <li>DevNet Associate</li>
+            <li>CyberOps Associate</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span></span></a>
+        </div>
+
+        <div class="card">
+          <!-- <div class="card-icon"></div> -->
+          <h3>PMI / Project Mgmt</h3>
+          <p>PMP, CAPM, PMI-ACP, PMI-RMP — global project management credentials.</p>
+          <ul>
+            <li>PMP · CAPM</li>
+            <li>PMI-ACP · PMI-RMP</li>
+            <li>PgMP · PfMP</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span></span></a>
+        </div>
+
+        <div class="card">
+          <!-- <div class="card-icon"></div> -->
+          <h3>Salesforce & Others</h3>
+          <p>Salesforce Administrator, Developer, Architect. Plus Adobe, ITIL & more.</p>
+          <ul>
+            <li>Salesforce Admin · Developer</li>
+            <li>Adobe Certified Expert</li>
+            <li>ITIL 4 Foundation</li>
+          </ul>
+          <a href="#contact" class="card-link">Get Voucher <span></span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Savings Calculator</span>
+        <h2>How Much You Save With Us</h2>
+        <p>Compare our discounted prices vs official exam costs across top certifications.</p>
+      </div>
+      <div class="pricing-table">
+        <div class="pricing-head">
+          <div>Certification</div>
+          <div>Official Price</div>
+          <div>Our Price</div>
+          <div>You Save</div>
+          <div></div>
+        </div>
+        <div class="pricing-row">
+          <div class="cert-name"><span class="cert-dot ms"></span>AZ-104 (Microsoft Azure)</div>
+          <div class="orig-price">₹15,000</div>
+          <div class="our-price">₹9,500</div>
+          <div class="save-tag">Save ₹5,500</div>
+          <div><a href="#contact" class="btn-sm">Get It</a></div>
+        </div>
+        <div class="pricing-row highlight">
+          <div class="cert-name"><span class="cert-dot comp"></span>CompTIA Security+</div>
+          <div class="orig-price">₹22,000</div>
+          <div class="our-price">₹13,500</div>
+          <div class="save-tag">Save ₹8,500</div>
+          <div><a href="#contact" class="btn-sm">Get It</a></div>
+        </div>
+        <div class="pricing-row">
+          <div class="cert-name"><span class="cert-dot aws"></span>AWS Solutions Architect</div>
+          <div class="orig-price">₹18,000</div>
+          <div class="our-price">₹11,000</div>
+          <div class="save-tag">Save ₹7,000</div>
+          <div><a href="#contact" class="btn-sm">Get It</a></div>
+        </div>
+        <div class="pricing-row">
+          <div class="cert-name"><span class="cert-dot pmi"></span>PMP (PMI)</div>
+          <div class="orig-price">₹35,000</div>
+          <div class="our-price">₹22,000</div>
+          <div class="save-tag">Save ₹13,000</div>
+          <div><a href="#contact" class="btn-sm">Get It</a></div>
+        </div>
+        <div class="pricing-row">
+          <div class="cert-name"><span class="cert-dot cisco"></span>CCNA (Cisco)</div>
+          <div class="orig-price">₹20,000</div>
+          <div class="our-price">₹12,500</div>
+          <div class="save-tag">Save ₹7,500</div>
+          <div><a href="#contact" class="btn-sm">Get It</a></div>
+        </div>
+      </div>
+      <p class="pricing-note">* Prices are indicative. Contact us for exact current pricing on any voucher.</p>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header light">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2>Your Success, Our Mission</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <!-- <div class="why-icon"></div> -->
+          <div class="why-num">01</div>
+          <h4>Authorized Reseller</h4>
+          <p>We are officially authorized to sell exam vouchers from all major vendors — so every voucher you buy is 100% genuine and valid.</p>
+        </div>
+        <div class="why-card">
+          <!-- <div class="why-icon"></div> -->
+          <div class="why-num">02</div>
+          <h4>Maximum Discounts</h4>
+          <p>As a volume reseller, we pass the savings directly to you. Get up to 40% off official exam prices with no compromise on quality.</p>
+        </div>
+        <div class="why-card">
+          <!-- <div class="why-icon"></div> -->
+          <div class="why-num">03</div>
+          <h4>Expert Guidance</h4>
+          <p>Our industry-led trainers help you pick the right certification path, prepare effectively, and schedule your exam at the right time.</p>
+        </div>
+        <div class="why-card">
+          <!-- <div class="why-icon"></div> -->
+          <div class="why-num">04</div>
+          <h4>Fast Delivery</h4>
+          <p>Vouchers are delivered directly to your email within hours of payment — no waiting, no friction, just results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">What People Say</span>
+        <h2>Real Results from Real Professionals</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="quote-icon">"</div>
+          <!-- <div class="stars"></div> -->
+          <p>Saved ₹8,000 on my AZ-305 voucher. The process was super smooth and I received the voucher in under 2 hours. Highly recommended!</p>
+          <div class="testi-author">
+            <div class="avatar">AP</div>
+            <div>
+              <strong>Arjun Pandey</strong>
+              <span>Azure Solutions Architect</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-featured">
+          <div class="quote-icon">"</div>
+          <!-- <div class="stars"></div> -->
+          <p>Global Exam Success gave me the best discount on my CompTIA Security+ voucher. Their team also helped me understand which exam to take next. Great service!</p>
+          <div class="testi-author">
+            <div class="avatar">MS</div>
+            <div>
+              <strong>Meera Sundar</strong>
+              <span>Cybersecurity Analyst</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="quote-icon">"</div>
+          <!-- <div class="stars"></div> -->
+          <p>I bought my AWS Solutions Architect voucher here. Huge savings and the support team answered all my questions quickly. Will definitely buy again.</p>
+          <div class="testi-author">
+            <div class="avatar">RK</div>
+            <div>
+              <strong>Ravi Kumar</strong>
+              <span>Cloud Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Simple Process</span>
+        <h2>How to Get Your Voucher</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-circle">1</div>
+          <h4>Choose Your Exam</h4>
+          <p>Browse our catalog or contact us to find the right certification voucher for your goals.</p>
+        </div>
+        <div class="step-arrow"></div>
+        <div class="step">
+          <div class="step-circle">2</div>
+          <h4>Make Payment</h4>
+          <p>Pay securely through our accepted payment methods. We support multiple options.</p>
+        </div>
+        <div class="step-arrow"></div>
+        <div class="step">
+          <div class="step-circle">3</div>
+          <h4>Receive Voucher</h4>
+          <p>Your voucher code is delivered to your email within hours of confirmed payment.</p>
+        </div>
+        <div class="step-arrow"></div>
+        <div class="step">
+          <div class="step-circle">4</div>
+          <h4>Book & Pass!</h4>
+          <p>Use the voucher to book your exam slot on the official testing platform and succeed!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Contact Us</span>
+        <h2>Ready to Save on Your Next Certification?</h2>
+        <p>Tell us which exam you're planning and we'll get back to you with the best price available.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <!-- <div class="contact-icon"></div> -->
+            <div>
+              <span class="contact-label">Email Us</span>
+              <a href="mailto:info@globalexamsuccess.com">info@globalexamsuccess.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <!-- <div class="contact-icon"></div> -->
+            <div>
+              <span class="contact-label">Chat With Us</span>
+              <a href="https://wa.me/919944429535" target="_blank">WhatsApp / Live Chat</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <!-- <div class="contact-icon"></div> -->
+            <div>
+              <span class="contact-label">Working Hours</span>
+              <span>Mon–Sat · 9AM – 7PM IST</span>
+            </div>
+          </div>
+        </div>
+        <div class="trust-badges">
+          <span>Secure Checkout</span>
+          <span>Verified Reseller</span>
+          <span>Fast Delivery</span>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-title">Get Your Best Price Today</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="e.g. Sarumathi" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" placeholder="+91 9944429535" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="you@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="exam">Which Exam Voucher?</label>
+          <input type="text" id="exam" placeholder="e.g. AZ-104, Security+, PMP..." required />
+        </div>
+        <div class="form-group">
+          <label for="message">Any Questions?</label>
+          <textarea id="message" rows="3" placeholder="Tell us more about your certification goals..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">
+          <span>Send My Enquiry</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <p class="form-note">Your info is safe. We typically reply within 2 business hours.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <!-- <span class="logo-icon"></span> -->
+          <span class="logo-text">GlobalExamSuccess</span>
+        </a>
+        <p>Authorized reseller of discounted certification exam vouchers. Your success is our business.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <!-- <a href="https://wa.me/919944429535" target="_blank" aria-label="WhatsApp">WhatsApp</a> -->
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <a href="#home">Home</a>
+        <a href="#vouchers">Vouchers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h5>Certifications</h5>
+        <a href="#vouchers">Microsoft Azure</a>
+        <a href="#vouchers">CompTIA</a>
+        <a href="#vouchers">AWS / Cloud</a>
+        <a href="#vouchers">Cisco</a>
+        <a href="#vouchers">PMI / PMP</a>
+      </div>
+      <div class="footer-links">
+        <h5>Contact</h5>
+        <a href="mailto:info@globalexamsuccess.com">info@globalexamsuccess.com</a>
+        <a href="https://wa.me/919944429535">WhatsApp Support</a>
+        <span style="color:rgba(255,255,255,0.4);font-size:13px;">Mon–Sat · 9AM–7PM IST</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 GlobalExamSuccess.com · All rights reserved · Authorized Exam Voucher Reseller</p>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING BUTTONS ===== -->
+  <!--  <a href="https://wa.me/919944429535" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a> -->
+
+  <button class="scroll-top" id="scrollTop" title="Back to top"></button>  -->
+
+  <script>
+// ===== ANNOUNCEMENT BAR =====
+// (handled inline via onclick)
+
+// ===== HAMBURGER TOGGLE =====
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  mobileMenu.classList.toggle('open');
+});
+
+mobileMenu.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    hamburger.classList.remove('active');
+  });
+});
+
+// ===== SMOOTH SCROLL =====
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// ===== NAVBAR SCROLL =====
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.style.boxShadow = window.scrollY > 50
+    ? '0 2px 20px rgba(11,20,55,0.15)'
+    : 'none';
+
+  // Scroll-to-top button
+  document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+});
+
+// ===== SCROLL TO TOP =====
+document.getElementById('scrollTop').addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ===== COUNTER ANIMATION =====
+function animateCounter(el, target, duration = 1500) {
+  let start = 0;
+  const step = target / (duration / 16);
+  const timer = setInterval(() => {
+    start += step;
+    if (start >= target) { el.textContent = target; clearInterval(timer); return; }
+    el.textContent = Math.floor(start);
+  }, 16);
+}
+
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      animateCounter(el, parseInt(el.dataset.target));
+      counterObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('[data-target]').forEach(el => counterObserver.observe(el));
+
+// ===== CONTACT FORM =====
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = this.querySelector('.btn-primary');
+    btn.innerHTML = 'Sent! We\'ll reply shortly.';
+    btn.style.background = '#10B981';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.innerHTML = '<span>Send My Enquiry</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+      btn.style.background = '';
+      btn.disabled = false;
+      this.reset();
+    }, 4000);
+  });
+}
+
+// ===== SCROLL REVEAL =====
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.card, .why-card, .testi-card, .step, .pricing-row').forEach((el, i) => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(28px)';
+  el.style.transition = `opacity 0.55s ease ${i * 0.07}s, transform 0.55s ease ${i * 0.07}s`;
+  observer.observe(el);
+});
+  </script>
+</body>
+</html>
